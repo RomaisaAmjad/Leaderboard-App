@@ -1,7 +1,7 @@
 const {Router} = require('express');
 const leaderboardController = require('../controllers/leaderboard.controller');
 const {validateData} = require('../middlewares/validateData.middleware');
-const {validateInput}= require('../validators/Player.validator');
+const {validateInput}= require('../validators/player.validator');
 const {accessControl} = require('../middlewares/accessControl.middleware');
 
 const leaderboardRouter = Router();
